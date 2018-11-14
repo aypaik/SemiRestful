@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Users Show</title>
+</head>
+<body>
+
+    <h1>User {{restfuluser.id}}</h1>
+    <br/>
+    Full Name: {{restfuluser.first_name}} {{restfuluser.last_name}}<br/>
+    Email: {{restfuluser.email}}<br/>
+    Created at: {{restfuluser.created_at}}<br/>
+    <br/>
+    <a href='/edit/{{restfuluser.id}}'>Edit</a> | <a href='/delete/{{restfuluser.id}}'>Delete</a> | <a href='/'>Go Back</a>
+    
+    
+    
+</body>
+</html>
